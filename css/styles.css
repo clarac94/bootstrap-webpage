@@ -1,0 +1,44 @@
+body{
+    font-family: 'Lato', sans-serif;
+  } 
+
+  h1, h2, h3, h4, h5{
+    font-family: 'Lobster', cursive !important;
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  .footer p{
+    text-align: center;
+  }
+
+  .header{
+    background-image: url('../img/back-header.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #000f21;
+  }
+
+  .bg-custom{
+    background-color: #91C6DF;
+  }
+
+  .border-custom{
+    border-color: #91C6DF;
+  }
+
+  .text-custom{
+    color: #91C6DF;
+  }
+
+  @media (max-width: 575px) {
+   .header{
+    background-image: url('../img/back-header-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-attachment: inherit;
+    background-color: #262100;
+   }
+  }
