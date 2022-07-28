@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 54px;
+}
+
 body{
     font-family: 'Lato', sans-serif;
   } 
@@ -14,7 +19,7 @@ body{
     text-align: center;
   }
 
-  .header{
+  .intro{
     background-image: url('../img/back-header.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -42,3 +47,5 @@ body{
     background-color: #262100;
    }
   }
+
+  
